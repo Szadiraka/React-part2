@@ -1,0 +1,11 @@
+.green-color{
+    padding: 10px 30px ;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.red-color{
+    padding: 10px 30px ;
+    background-color: lightcoral;
+    text-align: center;
+}

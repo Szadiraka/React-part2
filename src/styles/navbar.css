@@ -1,0 +1,131 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    
+    width:100%;
+    border-bottom: 2px solid gray;
+}
+
+.navbar-header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: gray;
+    
+}
+.navbar-header-block{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10px 0 ;
+      width: 80%;
+}
+.header-p{
+    width: auto;
+    color: white;
+    
+}
+.bg_txt{
+    font-size: 20px;
+}
+.md_txt{
+    font-size: 18px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+}
+
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+.navbar-menu{
+    display: flex;
+    background-color: rgb(220, 20, 60);
+    justify-content: center;
+    color: white;
+
+    }
+.navbar-menu-block{
+    display: flex;         
+}
+.button{
+    padding:15px 20px;
+    background-color: rgb(220, 20, 60);
+    text-transform: uppercase;
+    color: white;
+    border:0;
+}
+.button:hover{
+    background-color: rgb(250, 128, 114);
+} 
+
+/* #nav1,#nav2,#nav3,#nav4,#nav5,
+#nav1::after, #nav2::after,#nav3::after,#nav4::after,#nav5::after,
+#nav1::before,#nav2::before, #nav3::before,#nav4::before,#nav5::before
+{
+      
+    
+} */
+
+
+.header-dialog{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    z-index: 100;
+}
+.dialogBox-container{
+    display: flex;
+    flex-direction: column;
+     width:600px;
+     margin: 50px auto;
+     padding: 10px 50px;
+    background-color: white;
+}
+.header-input-container{
+ display: flex;
+ flex-direction: column;
+}
+.dialog-p{
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    margin: 5px 0 20px;
+}
+
+.form-button{
+    background-color: rgb(220, 20, 60);
+    padding:5px 10px;
+    width: 110px;
+    font-size: large;
+    border-radius: 5px;
+    color: white;;
+}
+#header-close {
+    width: 50px;
+}
+
+input,textarea{
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: large;
+}
+.bt2{
+    margin:0 auto;
+    width: 200px;
+}
+.btn1{
+    margin-left: auto;
+}
+.header-textarea{
+    height: 100px;
+}

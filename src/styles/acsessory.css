@@ -1,0 +1,131 @@
+.service-main{
+    position:relative;
+    height: 100vh;
+  }
+  .background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .service-content-overlay{
+     
+      display: flex;
+      margin: 0 auto;
+      z-index: 1;
+   
+      width:100%;
+      padding-top: 30px;
+      max-width: 1000px;
+      color: white; 
+
+      
+  }
+  .left_panel, .right_panel{
+    display: flex;
+    
+    flex-direction: column;
+
+  }
+  .left_panel{
+    width:260px;    
+    border: 2px solid gray;
+ 
+  }
+  .right_panel{
+    width: calc(100% - 260px);
+    border: 2px solid gray;
+   
+    margin-left: -1px;
+  }
+
+  .left_panel ul{
+    list-style-type: none;
+  }
+  .left_panel li{
+    cursor: pointer;
+  }
+  .content-item{
+    display:none;
+  }
+  .typerepair-header-r, .typerepair-body, .typerepair-header-l{
+    display: flex;
+    padding: 10px 0; 
+  }
+  .typerepair-header-r{
+    border-bottom: 2px solid gray;
+    
+    background-color: rgb(220, 20, 60);
+   
+  }
+  .typerepair-header-l{
+    border-bottom: 2px solid gray;    
+    background-color: rgb(220, 20, 60);
+    justify-content: center;
+   
+  }
+  .typerepair-body{
+    border-bottom: 1px solid gray;
+  }
+  .typerepair-content{
+    width:30%;
+    
+  }
+  .typerepair-content:first-of-type{
+    width:40%;
+    padding-left: 10px;
+  }
+
+  .cn{
+    text-align: center;
+  }
+  .typerepair-h{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: rgb(220, 20, 60);
+   
+  }
+  .productrepair{
+    padding: 5px 0 10px 10px;
+    border-bottom: 1px solid gray;
+  }
+  .productrepair:hover, .typerepair-body:hover{
+      background-color: rgba(220, 20, 60, 0.2);
+  }
+  .productrepair:first-child{
+    border-top: 1px solid gray;
+  }
+ 
+  .cl:hover{
+    background-color:  rgb(250, 128, 114);
+    cursor: pointer;
+  }
+  .filter{
+    border-bottom: solid 2px gray;
+  }
+  .input-text, select{
+    margin-left: 10px;
+  }
+  .input-text{
+    width: 230px;
+  }
+  .select{
+    font-size: large;
+    padding: 5px 0;
+    margin: 10px 10px;
+    width: 230px;
+  }
+  .label{
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  input[type="checkbox"]{
+    margin:0 0 0 30px;
+  }
+  .cnt{
+    text-align: center;
+    padding: 10px;
+  }
+ 
+

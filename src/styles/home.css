@@ -1,0 +1,34 @@
+.home-main{
+    position:relative;
+    height: 100vh;
+  }
+  .home-background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .home-content-overlay{
+      position: relative;
+      z-index: 1;
+      color: white; 
+      
+  }
+  .home-content{
+      
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+      align-items:flex-start;
+  }
+  
+  .home-p{
+    text-align: justify;
+    padding: 20px;
+  }
+  .home-h{
+      padding-top:20px ;
+      margin: 0 auto;   
+      color: rgb(240, 232, 232); 
+  }

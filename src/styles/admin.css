@@ -1,0 +1,134 @@
+.admin-main{
+    position:relative;
+    height: 100vh;
+  }
+  .background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .admin-content-overlay{
+      position: relative;
+    
+      z-index: 1;
+      color: white; 
+      
+  }
+  .admin-content{
+      
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+      align-items:center;
+  }
+  
+  .admin-p{
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .admin-h{
+
+      padding:20px ;
+      margin: 0 auto;   
+  }
+  .admin-table{
+    border-collapse: collapse;
+    background-color:  rgb(220, 20, 60);;
+    color: black;
+    margin: 0 auto;
+  }
+  
+  td,th{
+    text-align: center;
+    padding: 10px;  
+
+  }
+
+.new{
+  max-height: 700px; /* Установите желаемую максимальную высоту для tbody */
+  overflow-y: auto; /* Добавьте вертикальный скролл при необходимости */
+  display: block;
+}
+
+
+.admin-tbody > tr:nth-child(odd){
+    background-color: lightgray;
+  }
+
+  .admin-tbody > tr:nth-child(even){
+    background-color: rgb(243, 238, 238);
+  }
+  .admin-tbody td:first-child{
+    text-align: left;
+  }
+  .admin-tfoot tr{
+    background-color:  rgb(220, 20, 60);; 
+    height: 20px;
+  }
+  .admin-tbody tr:hover {background-color: rgb(179, 174, 175);}
+   .admin-input{
+    margin: 0 auto;
+    padding-left:5px ;
+    
+ }
+ .ls{
+    width: auto;
+ }
+ 
+ .ll{
+    width: 100px;
+ }
+ input[type="button"]{
+    border-radius: 5px;
+    width: auto;
+    padding: 5px 10px;
+    margin: 0;
+  
+    
+ }
+ input[type="button"]:hover{
+    background-color: rgb(99, 182, 154);
+    margin: 0;
+    cursor: pointer;
+   
+ }
+ .bc{
+  background-color: lightblue;
+ }
+ .rc{
+  background-color: lightcoral;
+ }
+ .gc{
+  background-color: lightgreen;
+ }
+
+.admin-input-textarea{
+  width: 800px;
+  height: 100px;
+}
+
+.ma{
+  padding: 8px 0;
+  font-size: large;
+}
+
+.gg{
+  background-color: lightgrey;
+}
+
+.admin-tbody > .admin-theader  {
+  background-color:  rgb(220, 20, 60);; 
+  color: white; 
+
+}
+
+.admin-tbody > .admin-tfooter {
+  background-color:  rgb(220, 20, 60);;
+}
+
+.admin-theader{
+ color:white;
+}

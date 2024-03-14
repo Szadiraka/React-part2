@@ -1,0 +1,154 @@
+.service-main{
+    position:relative;
+    height: 100vh;
+  }
+  .background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .service-content-overlay{
+     
+      display: flex;
+      margin: 0 auto;
+      z-index: 1;
+   
+      width:100%;
+      padding-top: 30px;
+      max-width: 1000px;
+      color: white; 
+
+      
+  }
+  .left_panel, .right_panel{
+    display: flex;
+    
+    flex-direction: column;
+
+  }
+  .left_panel{
+    width:260px;    
+    border: 2px solid gray;
+ 
+  }
+  .right_panel{
+    width: calc(100% - 260px);
+    border: 2px solid gray;
+   
+    margin-left: -1px;
+  }
+
+  .left_panel ul{
+    list-style-type: none;
+  }
+  .left_panel li{
+    cursor: pointer;
+  }
+  .content-item{
+    display:none;
+  }
+  .typerepair-header-r, .typerepair-body, .typerepair-header-l{
+    display: flex;
+    padding: 10px 0; 
+  }
+  .typerepair-header-r{
+    border-bottom: 2px solid gray;
+    
+    background-color: rgb(220, 20, 60);
+   
+  }
+  .typerepair-header-l{
+    border-bottom: 2px solid gray;    
+    background-color: rgb(220, 20, 60);
+    justify-content: center;
+   
+  }
+  .typerepair-body{
+    display: flex;
+    border-bottom: 1px solid gray;
+  }
+  .typerepair-content{
+    width:30%;
+    
+  }
+  .typerepair-content-text{
+    width:80%;
+    padding: 0 20px;
+    text-align: justify;
+  }
+  .typerepair-content:first-of-type{
+    width:40%;
+    padding-left: 10px;
+  }
+  .typerepair-content-text:first-of-type{
+    width:25%;
+    padding-left: 10px;
+  }
+
+  .message-content-text{
+    width: 25%;
+    padding: 0 10px;
+  }
+  .message-content-text2{
+    width: 33%;
+    padding: 0 10px;
+  }
+  .message-content-text:last-child{
+    width: 50%;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+
+  .cn{
+    text-align: center;
+  }
+  .ln{
+    text-align: start;
+  }
+  .typerepair-h{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: rgb(220, 20, 60);
+   
+  }
+  .productrepair{
+    padding: 5px 0 10px 10px;
+    border-bottom: 1px solid gray;
+  }
+  .productrepair:hover, .typerepair-body:hover{
+      background-color: rgba(220, 20, 60, 0.2);
+  }
+  .productrepair:first-child{
+    border-top: 1px solid gray;
+  }
+ 
+  .cl:hover{
+    background-color:  rgb(250, 128, 114);
+    cursor: pointer;
+  }
+  .order-content{
+       width: 100%;
+       display:inline-flex;
+
+  }
+.lch{
+  font-weight: bold;
+  padding-top: 10px;
+}
+ 
+
+
+ .item{
+  display: flex;
+  
+ }
+ .block{
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+ }
+
+
+ 

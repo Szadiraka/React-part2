@@ -1,0 +1,154 @@
+.order-main{
+    position:relative;
+    height: 100vh;
+  }
+  /* .background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  } */
+  /* .admin-content-overlay{
+      position: relative;
+    
+      z-index: 1;
+      color: white; 
+      
+  } */
+  .order-content{
+      
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+      align-items:center;
+  }
+  .order-div{
+    margin: 10px;
+  }
+  
+  .order-p{
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .order-h{
+
+      padding:10px ;
+      text-align: center;   
+  }
+  .order-table{
+    border-collapse: collapse;
+    background-color:  rgb(220, 20, 60);;
+    color: black;
+    margin: 5px auto ;
+  }
+  .order-theader{
+    color: white;
+  }
+  .order-button{
+    border-radius: 5px;
+    width: auto;
+    padding: 5px 10px;
+    margin: 0;
+  }
+  .order-button:hover{
+    background-color: rgb(99, 182, 154);
+    margin: 0;
+    cursor: pointer;
+   
+ }
+  
+  td,th{
+    text-align: center;
+    padding: 10px;  
+
+  }
+  .order-input{
+    padding: 5px;
+  }
+  .maxwidth{
+    width: 100%;
+    min-width: 1200px;
+    max-height: 700px;
+    overflow-y: auto;
+  }
+
+ .order-tbody tr:nth-child(odd){
+    background-color: lightgray;
+  }
+
+  .order-tbody tr:nth-child(even){
+    background-color: white;
+  }
+  .order-tbody td:first-child{
+    text-align: left;
+  }
+  /* .order-tfoot tr{
+    background-color:  rgb(220, 20, 60);; 
+    height: 20px;
+  } */
+   .order-tbody tr:hover {background-color: rgb(179, 174, 175);}
+   .order-input{
+    margin: 0 auto;
+    padding-left:5px ;
+    
+ } 
+ .ls{
+    width: auto;
+ }
+ 
+ .ll{
+    width: 100px;
+ }
+ /* input[type="button"]{
+    border-radius: 5px;
+    width: auto;
+    padding: 5px 10px;
+    margin: 0;
+  
+    
+ } */
+ /* input[type="button"]:hover{
+    background-color: rgb(99, 182, 154);
+    margin: 0;
+    cursor: pointer;
+   
+ } */
+ .bc{
+  background-color: lightblue;
+ }
+ .rc{
+  background-color: lightcoral;
+ }
+ .gc{
+  background-color: lightgreen;
+ }
+ .order-input-textarea{
+  width: 400px;
+  height: 50px;
+ }
+
+/* .admin-input-textarea{
+  width: 800px;
+  height: 100px;
+} */
+
+/* .ma{
+  padding: 8px 0;
+  font-size: large;
+}
+
+.gg{
+  background-color: lightgrey;
+}
+
+.admin-tbody > .admin-theader  {
+  background-color:  rgb(220, 20, 60);; 
+  color: white; 
+
+}
+
+.admin-tbody > .admin-tfooter {
+  background-color:  rgb(220, 20, 60);;
+} */
